@@ -39,7 +39,7 @@ function getCategories() {
 
     asyncResult.value.forEach((category, index) => {
       let displayName = category.displayName;
-      if (displayName.includes("Office Add-ins Sample: ")) {
+      if (displayName.includes("Northwind Supplier:")) {
         let option = document.createElement("option");
         option.value = index;
         option.text = category.displayName;
@@ -47,11 +47,12 @@ function getCategories() {
         selection.size++;
       }
     });
-
+    if (!document.body.contains(document.getElementById('applicable-categories'))) {
     document
       .getElementById("categories-container")
       .appendChild(label)
       .appendChild(selection);
+    }
   });
 }
 

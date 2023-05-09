@@ -154,12 +154,12 @@ function getCategoriesToBeCreated(keywords, existingCategories = []) {
   let categoriesToBeCreated = [];
   if (existingCategories.length === 0) {
     keywords.forEach((word) => {
-      categoriesToBeCreated.push(`Office Add-ins Sample: ${word}`);
+      categoriesToBeCreated.push(`Northwind Supplier:${word}`);
     });
   } else {
     keywords.forEach((word) => {
-      if (!existingCategories.includes(`Office Add-ins Sample: ${word}`)) {
-        categoriesToBeCreated.push(`Office Add-ins Sample: ${word}`);
+      if (!existingCategories.includes(`Northwind Supplier:${word}`)) {
+        categoriesToBeCreated.push(`Northwind Supplier:${word}`);
       }
     });
   }
@@ -268,7 +268,7 @@ function checkForDuplicates(wordsToCompare = [], wordList = []) {
 function getCategoryName(detectedWords) {
   let categories = [];
   detectedWords.forEach((word) => {
-    categories.push(`Office Add-ins Sample: ${word}`);
+    categories.push(`Northwind Supplier:${word}`);
   });
 
   return categories;
