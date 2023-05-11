@@ -160,7 +160,7 @@
                                         {
                                             "id": "MessageComposeSelectButton",
                                             "type": "button",
-                                            "label": "Select categories",
+                                            "label": "NW Select categories",
                                             "icons": [
                                                 {
                                                     "size": 16,
@@ -176,7 +176,7 @@
                                                 }
                                             ],
                                             "supertip": {
-                                                "title": "Select categories",
+                                                "title": "NW Select categories",
                                                 "description": "Opens a task pane to select and apply categories to an email or appointment."
                                             },
                                             "actionId": "action_1",
@@ -219,7 +219,7 @@
                                         {
                                             "id": "AppointmentOrganizerSelectButton",
                                             "type": "button",
-                                            "label": "Select categories",
+                                            "label": "NW Select categories",
                                             "icons": [
                                                 {
                                                     "size": 16,
@@ -235,7 +235,7 @@
                                                 }
                                             ],
                                             "supertip": {
-                                                "title": "Select categories",
+                                                "title": "NW Select categories",
                                                 "description": "Opens a task pane to select and apply categories to an email or appointment."
                                             },
                                             "actionId": "action_2",
