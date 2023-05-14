@@ -153,7 +153,6 @@
                             "builtInTabId": "TabDefault",
                             "groups": [
                                 {
-                                    "overriddenByRibbonApi": false,
                                     "id": "CategoriesGroupMessageCompose",
                                     "label": "Office Add-ins Smart Alerts Sample",
                                     "controls": [
@@ -164,15 +163,15 @@
                                             "icons": [
                                                 {
                                                     "size": 16,
-                                                    "file": "icon-16.png"
+                                                    "file": "https://localhost:3000/assets/icon-16.png"
                                                 },
                                                 {
                                                     "size": 32,
-                                                    "file": "icon-32.png"
+                                                    "file": "https://localhost:3000/assets/icon-32.png"
                                                 },
                                                 {
                                                     "size": 80,
-                                                    "file": "icon-80.png"
+                                                    "file": "https://localhost:3000/assets/icon-80.png"
                                                 }
                                             ],
                                             "supertip": {
@@ -212,7 +211,6 @@
                             "builtInTabId": "TabDefault",
                             "groups": [
                                 {
-                                    "overriddenByRibbonApi": false,
                                     "id": "CategoriesGroupAppointmentOrganizer",
                                     "label": "Office Add-ins Smart Alerts Sample",
                                     "controls": [
@@ -223,15 +221,15 @@
                                             "icons": [
                                                 {
                                                     "size": 16,
-                                                    "file": "icon-16_02.png"
+                                                    "file": "https://localhost:3000/assets/icon-16_02.png"
                                                 },
                                                 {
                                                     "size": 32,
-                                                    "file": "icon-32_02.png"
+                                                    "file": "https://localhost:3000/assets/icon-32_02.png"
                                                 },
                                                 {
                                                     "size": 80,
-                                                    "file": "icon-80_02.png"
+                                                    "file": "https://localhost:3000/assets/icon-80_02.png"
                                                 }
                                             ],
                                             "supertip": {
